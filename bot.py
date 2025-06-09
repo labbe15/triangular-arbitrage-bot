@@ -39,4 +39,7 @@ def check_arbitrage(start_amount=1000.0):
     profit = usdt_final - base
     roi = (usdt_final / base - 1) * 100
 
-    print(f"USDT ➜ BTC ➜ E
+    print(f"USDT ➜ BTC ➜ ETH ➜ USDT")
+print(f"Résultat : {round(usdt_final, 2)} USDT")
+print(f"Profit : {round(profit, 2)} USDT")
+print(f"ROI : {round(roi, 4)} %")
